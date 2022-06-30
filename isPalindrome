@@ -1,0 +1,11 @@
+func isPalindrome(_ test: String) -> Bool {
+    let reversed = String(test.lowercased().reversed())
+
+    if test.lowercased() == reversed {
+        return true
+    } else {
+        return false
+    }
+}
+
+isPalindrome("Rotator")
